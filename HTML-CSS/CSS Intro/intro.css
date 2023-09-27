@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(29, 123, 45);
+}
+
+
+.images {
+    width: 400px;
+    border-color: azure;
+    border-width: 6px;
+    border-style: solid;
+    border-style: inset;
+    border-radius: 3px;
+}
