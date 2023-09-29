@@ -7,8 +7,9 @@ body {
 
 
 
-ul{
+ul.languages {
     /* madde imi stilleri*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     list-style-type: circle;
     list-style-type: square;
     list-style-type: none;
@@ -30,4 +31,115 @@ h2  {
 .fa-solid {
     color: red;
     font-size: 35px;
+}
+
+
+
+/* pseudo clesses*/
+
+ul.pseudo li:first-child{
+    color: blue;
+    font-weight: 700;
+
+
+}
+
+
+ul.pseudo li:last-child{
+    color: rgb(163, 55, 12);
+    font-weight: 700;
+}
+
+
+ul.pseudo li:nth-child(5){
+    color: rgb(194, 56, 233);
+    font-weight: 700;
+}
+
+
+ul.pseudo li:nth-child(odd){
+    color: rgb(69, 124, 18);
+    font-weight: 700;
+    background-color: bisque;
+}
+
+ul.pseudo li:nth-child(even){
+    color: rgb(66, 27, 129);
+    font-weight: 700;
+    background-color: darkseagreen;
+}
+
+/* fare ile lilerin üzerine gelindiğinde*/
+ul.pseudo li:hover {
+    opacity: 0.5;
+    background-color: blue;
+    cursor: pointer;
+
+}
+
+
+/* farenin sol tuşu ile bir li ye tıklandığında*/
+ul.pseudo li:active {
+    opacity: 0.5;
+    background-color: rgb(231, 119, 107);
+    cursor: pointer;
+
+}
+
+
+/* classı x olan p elementinin içerisinde .y classının içindeki z id li elementi seç*/
+p.x .y #z {
+    color: blue;
+
+}
+
+
+input:focus {
+    background-color: cadetblue;
+    color: red;
+    border: 4px dotted white;
+    outline: none;
+}
+
+
+/* link pseudo classes*/
+
+nav.links a:link {
+    color: rgb(30, 144, 255);
+}
+
+
+nav.links a:visited {
+    color: lightpink;
+}
+
+nav.links a:active {
+    color: rgb(248, 223, 80);
+}
+
+nav.links a:hover {
+    color: rgb(137, 0, 21);
+}
+
+.p-elements::first-line{
+    color: red;
+}
+
+.p-elements::first-letter{
+    font-size: 30px;
+}
+
+
+
+ul.before-after li::before{
+    content: '🚗';
+}
+
+ul.before-after li:nth-child(3)::before{
+    content: '🏎️';
+}
+
+
+ul.before-after li:nth-child(2)::after{
+    content: '🚙';
 }
