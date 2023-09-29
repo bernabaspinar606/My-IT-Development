@@ -1,0 +1,33 @@
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    
+}
+
+
+
+
+ul{
+    /* madde imi stilleri*/
+    list-style-type: circle;
+    list-style-type: square;
+    list-style-type: none;
+    list-style-type: lower-latin;
+
+    list-style-position: inside; /* madde imi padding içinde mi dışında mı olsun*/
+
+    padding: 0;/* madde imlerinin soldaki boşluğu*/
+
+    list-style-image: url("../img/igloo-solid\ \(1\).svg");
+
+
+}
+
+h2  {
+    font-size: 30px;
+}
+
+.fa-solid {
+    color: red;
+    font-size: 35px;
+}
