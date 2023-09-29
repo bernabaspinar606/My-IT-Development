@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.style {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+    font-weight: 800; 
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+p span{
+    color: crimson;
+}
+
+span{
+    color: black;
+    font-weight: 600;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+#my-body .style span {
+    color: blue;
+}
+
+.decoration {
+    color: green;
+    text-decoration: overline; /*üzerini */
+    text-decoration: underline; /*altını */
+    text-decoration: line-through;/* üstünü*/
+
+}
+
+.transformation {
+    color: blueviolet;
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+
+.spacing{
+    color: deeppink;
+    letter-spacing: 4px;/* harfler arasi mesafe */
+    word-spacing: 5px; /* kelimeler arasi mesafe */ 
+    line-height: 0.7; /* satir yüksekliği*/
+
+}
+
+.direct {
+    text-align: right;
+    direction: rtl;
+}
+
+.direct1 {
+    text-align: right;
+
+}
+
+.text-shadow {
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.5);
+     box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;;
+    
+}
