@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.img1 {
+    width: 43%;
+    float: left;
+    padding: 10px;
+}
+
+.img2 {
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+
+.text {
+    float: right;
+}
+
+.text1 {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.box {
+    float: left;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.box1 {
+    background-color: green;
+    width: 40%;
+}
+
+.box2 {
+    background-color: mediumslateblue;
+    width: 35%;
+}
+
+.box3 {
+    background-color: indianred;
+    width: 35%;
+}

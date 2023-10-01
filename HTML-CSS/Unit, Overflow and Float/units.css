@@ -1,0 +1,113 @@
+html {
+    height: 100%;
+}
+
+body {
+    /* bodynin default font size ı 16px*/
+    /* body nin default yüksekliği yoktur. bu sebeple childlardan herhangi birisine yüzdelik bir yükseklik verildiğinde bu yükseklik çalışmaz*/
+}
+h1 { 
+    /*default 32px*/
+    color: red;
+}
+
+/* mutlak ölçü birimleri*/
+p.abs {
+    /* default 16px*/
+    font-size: 20px;
+    font-size: 1cm;
+    font-size: 10mm;
+    font-size: 1in;
+    font-size: 10px;
+}
+
+
+
+/* % biriminde bir html elemanının font size ı parentın font sizeına göre oranlanır*/
+p.percent {
+    font-size: 200%;
+    font-size: 50%;
+}
+
+
+
+.div1 {
+    background-color: rgb(210, 142, 204);
+    /*parenti body olduğundan bodynin uzunluğunun 50 si*/
+    width: 50%;
+}
+
+.div2 {
+    background-color: rgb(71, 71, 251);
+    /* parentı div1 olduğunda divin uzunluğunun 50si*/
+    width: 50%;
+}
+
+.div3 {
+    background-color: rgb(164, 76, 247);
+    /* vw da parent yerine viewportun uzunluğuna bakılır. 90vw tarayıcının görünür alanının %90 ı demektir*/
+    width: 90vw;
+    /*vh da parent yerine viewportun yüksekliğine bakılır. 10vh tarayıcının görünür yüksekliğinin %10 u demektir */
+}
+
+
+/* EM ölçü biriminde bir html elamanının font size i parentin font size ına göre oranlanır */
+
+.div4 {
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 1em;
+    width: 150px;
+}
+
+
+
+
+
+.div5 {
+    background-color: deeppink;
+    color: white;
+    font-size: 2em;
+    width: 150px;
+}
+
+
+
+
+.div6 {
+    background-color: indigo;
+    color: white;
+    font-size: 3em;
+    width: 150px;
+}
+
+
+/* REM ölçü biriminde bir html elementinin font size i root elementinin (html) fontsize ına göre oranlanır*/
+
+
+
+.div7 {
+    font-size: 1rem; /* 16 x 1 = 16*/
+}
+
+
+.div8 {
+    font-size: 2rem; /* 16 x 2 = 32*/
+}
+
+
+.div9 {
+    font-size: 3rem; /* 16 x 3 = 48*/
+}
+
+
+.box {
+    width: 4rem;
+    height: 4rem;
+    background-color: lightcoral;
+    border-radius: 50%;
+}
+
+
+
+

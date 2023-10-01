@@ -1,0 +1,25 @@
+.box {
+    border: 2px solid indigo;
+    margin-bottom: 7rem;
+    width: 20rem;
+    height: 10rem;
+}
+
+
+.box {
+    overflow: visible; /* default değer*/
+
+}
+
+.box2 {
+    overflow: hidden;
+}
+
+
+.box3 {
+    overflow: scroll;
+}
+
+.box4 {
+    overflow: auto;
+}
