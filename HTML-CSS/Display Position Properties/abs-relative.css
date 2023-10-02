@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.box {
+    width: 10rem;
+    height: 10rem;
+    font-size: 1.4rem;
+    border: 2px solid royalblue;
+}
+
+/* aksi belirtilmedği sürece bir elemanın position ı statiktir*/
+.static {
+    background-color: rgb(203, 163, 240);
+    position: static /*default*/;
+}
+
+.relative {
+    background-color: darkorange;
+    position: relative;
+    top: 0; /* top:0 elemanın üst taraf acısından olması gereken konumda bulunması demektir. negatif bir değer elemanın yukarıya gelmesine, pozitif bir değer ise asağıya inmesine yol açar.*/
+    bottom: 0;
+    right: 0;
+    left: 10rem;
+    z-index: 0;
+    /* z index 0 dan büyük olduğunda diğer kutunun üzerine dokunur
+    z indexin default değeri 0*/
+} 
+
+.relative2 {
+    background-color: rgb(173, 214, 250);
+    position: relative;
+   
+} 
+
+
+
+
+/* bir eleman position:absolute ise parent elemanı da position:relative ise o zaman absolute eleman genel akışa göre değil relative(parent) elemana göre konumlandırılır. özellikle bu ikili bir resim üzerindeki yazıların konumunu belirlemek gibi birbirine göre dereceli konumlandırmalarda tercih edilir*/
+
+
+.absolute {
+    position: absolute;
+    background-color: darkorchid;
+    width: 3rem;
+    height: 3rem;
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.center {
+ 
+    background-color: blue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
