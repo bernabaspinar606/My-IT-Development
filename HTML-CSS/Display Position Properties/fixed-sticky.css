@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(203, 159, 244);
+    padding: 3rem;
+    font-size: 2rem;
+}
+
+nav.sticky {
+    background-color: rgb(250, 116, 187);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    
+}
+
+
+div.fixed {
+    background-color: rgb(41, 152, 41);
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    font-size: 2.3rem;
+    text-align: center;
+    padding-top: 0.2;
+    position: fixed;
+    bottom: 3rem;
+    right: 2rem;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
