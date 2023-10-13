@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 
 ul.nav {
@@ -9,6 +10,23 @@ ul.nav {
     list-style-type: none;
     padding: 1rem;
     text-align: center;
+
+    display: flex;
+
+    /*elemanların diziliş yönü*/
+    flex-direction: row; /* default row dur*/
+
+
+    gap: 1rem 4rem; /*satirlar arası boşluk satır-sütun*/
+
+    flex-wrap: wrap;/*sıkıştırma yada alt satira geçiş özelliği*/ 
+
+    justify-content: center;/*yatay hizalama*/
+
+    align-items: center;/*dikey hizalama*/
+
+    align-content: flex-end;/*çok satırlı verilerin dikeyde hizalanması*/
+    
 }
 
 
