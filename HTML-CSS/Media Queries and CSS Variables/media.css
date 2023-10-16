@@ -1,0 +1,34 @@
+@import "theme.css";
+
+
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 1px solid red;
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+/* media sorguları*/
+@media screen and (max-width: 500px) {
+    nav {
+    flex-direction: column;
+
+}
+.section-btn button {
+    margin: 1rem;
+    width: 250px;
+}
+
+}
