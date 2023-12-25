@@ -1,0 +1,49 @@
+* {
+    text-align: justify;
+    word-break: break-all;
+}
+
+li {
+    list-style-type: decimal-leading-zero;
+}
+
+li u {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.text {
+    text-align: center;
+    margin: 2rem auto;
+    width: 50vw;
+    font-size: 2rem;
+}
+
+/*  rotate içinde ...degree (deg) olarak değer verilir*/
+/* 90 ve 270 derecelerde yazılır tam dik olduklarından ve 3 boyutlu olarak bakamadığımız için gözükmezler*/
+
+.rotate-x {
+    background-color: blue;
+    transform: rotateX(180deg);
+}
+
+.rotate-y {
+    background-color: bisque;
+}
+
+.rotate {
+    background-color: chartreuse;
+}
+
+
+.scale-x {
+    background-color: cadetblue;
+}
+
+
+
+
+
+
+
+
