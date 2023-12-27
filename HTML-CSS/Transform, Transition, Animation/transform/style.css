@@ -19,6 +19,18 @@ li u {
     font-size: 2rem;
 }
 
+
+.navbar img {
+    height: 60px;
+    padding: 0.5rem;
+}
+
+.navbar img:hover {
+    height: 150px;
+    transform: scale(1.7) rotate(45deg);
+}
+
+
 /*  rotate içinde ...degree (deg) olarak değer verilir*/
 /* 90 ve 270 derecelerde yazılır tam dik olduklarından ve 3 boyutlu olarak bakamadığımız için gözükmezler*/
 
@@ -29,18 +41,55 @@ li u {
 
 .rotate-y {
     background-color: bisque;
+    transform: rotateY(180deg);
 }
 
 .rotate {
     background-color: chartreuse;
+    transform: rotate(45deg);
 }
 
 
 .scale-x {
     background-color: cadetblue;
+    transform: scaleX(2);
+}
+
+.scale-y {
+background-color: deeppink;
+
+transform: scaleY(-3);
+}
+
+.scale {
+    background-color: darkorchid;
+
+}
+
+.scale:hover {
+transform: scale(3);
+    /*  width: 30vw;*/
+
 }
 
 
+.translate-div {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & h1 {
+        text-align: center;
+    }
+    .box {
+        height: 50px;
+        width: 100px;
+    }
+}
+
+.translate-x {
+    background-color: darkorange;
+}
 
 
 
